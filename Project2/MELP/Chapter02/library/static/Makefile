@@ -1,3 +1,4 @@
+CC := arm-cortex_a8-linux-gnueabihf-gcc
 CFLAGS = -Wall -g -I../inc
 OBJECTS = testlib.o
  

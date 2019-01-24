@@ -1,5 +1,6 @@
 #makefile for the gcc desktop linux environment
 #PIC=Position independent code for x86 architectures
+CC := arm-cortex_a8-linux-gnueabihf-gcc
 CFLAGS := -Wall -g -fPIC -I../inc
 OBJECTS := testlib.o
  
