@@ -1,0 +1,60 @@
+Assignment 1
+
+
+User Information
+
+ UID USER  PROC PWD-LOCK PWD-DENY  LAST-LOGIN GECOS
+   0 root   123                               root
+1000 poorn   73                   Jan22/14:18 Poorn Mehta,,,
+
+OS Information
+
+GNU/Linux
+Distributor ID:	Ubuntu
+Description:	Ubuntu 18.04.1 LTS
+Release:	18.04
+Codename:	bionic
+
+Kernel Information
+
+Linux
+4.15.0-43-generic
+gcc (Ubuntu 7.3.0-27ubuntu1~18.04) 7.3.0
+Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+#46-Ubuntu SMP Thu Dec 6 14:45:28 UTC 2018
+Architecture: x86_64
+
+File System Memory
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev            3.9G     0  3.9G   0% /dev
+tmpfs           798M  1.6M  797M   1% /run
+/dev/sda1        98G   22G   72G  23% /
+tmpfs           3.9G   79M  3.9G   2% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           3.9G     0  3.9G   0% /sys/fs/cgroup
+/dev/loop0       35M   35M     0 100% /snap/gtk-common-themes/808
+/dev/loop1      3.8M  3.8M     0 100% /snap/gnome-system-monitor/51
+/dev/loop3       90M   90M     0 100% /snap/core/6130
+/dev/loop2      141M  141M     0 100% /snap/gnome-3-26-1604/74
+/dev/loop4       13M   13M     0 100% /snap/gnome-characters/139
+/dev/loop5       13M   13M     0 100% /snap/gnome-characters/117
+/dev/loop6       15M   15M     0 100% /snap/gnome-logs/45
+/dev/loop8       15M   15M     0 100% /snap/gnome-logs/40
+/dev/loop7      3.8M  3.8M     0 100% /snap/gnome-system-monitor/54
+/dev/loop9      141M  141M     0 100% /snap/gnome-3-26-1604/70
+/dev/loop10      88M   88M     0 100% /snap/core/5742
+/dev/loop11     2.3M  2.3M     0 100% /snap/gnome-calculator/238
+/dev/loop12     2.3M  2.3M     0 100% /snap/gnome-calculator/222
+/dev/loop13      35M   35M     0 100% /snap/gtk-common-themes/818
+/dev/loop14     2.3M  2.3M     0 100% /snap/gnome-calculator/260
+/dev/loop15      15M   15M     0 100% /snap/gnome-logs/43
+/dev/loop16      89M   89M     0 100% /snap/core/5897
+/dev/loop17      43M   43M     0 100% /snap/gtk-common-themes/701
+/dev/loop18     3.8M  3.8M     0 100% /snap/gnome-system-monitor/57
+/dev/loop19      13M   13M     0 100% /snap/gnome-characters/124
+tmpfs           798M   28K  798M   1% /run/user/121
+tmpfs           798M   48K  798M   1% /run/user/1000
