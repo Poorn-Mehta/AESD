@@ -11,7 +11,7 @@
 int main()
 {  
 	long int ret_status;
-	printf("Invoking 'customcall' system call\n");
+	printf("\n\n--->>>Invoking 'customcall' system call<<<---\n");
 	int32_t data1[256], data2[256];
 	int16_t data_length, i;
 
