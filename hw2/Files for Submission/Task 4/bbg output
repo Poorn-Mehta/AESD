@@ -1,0 +1,100 @@
+# ltrace problem2
+dwfl_report_elf problem2@0x10000 (/usr/bin/problem2) 122: address range overlaps an existing module
+Backend initialization failed.
+Couldn't load ELF object /lib/ld-uClibc.so.0: Success
+__uClibc_main(0x10730, 1, 0xbe8e9e44, 0x104fc <unfinished ...>
+puts("It is interesting how much effor"...It is interesting how much effort does it take to just think about an interesting string really
+)      = 96
+fopen("problem2.txt", "w+")                      = 0x22008
+fputc('Z', 0x22008)                              = 90
+fclose(0x22008)                                  = 0
+fopen("problem2.txt", "a")                       = 0x22008
+malloc(50)                                       = 0x23058
+printf("\nType in a string:"
+Type in a string:)                    = 18
+fgets([  155.039364] random: nonblocking pool is initialized
+fgh
+"fgh\n", 50, 0xb6edd078)                   = 0x23058
+fputs("fgh\n", 0x22008)                          = 4
+fflush(0x22008)                                  = 0
+fclose(0x22008)                                  = 0
+fopen("problem2.txt", "r")                       = 0x22008
+fgetc(0x22008)                                   = 'Z'
+fgets("fgh\n", 50, 0x22008)                      = 0xbe8e9cb4
+fclose(0x22008)                                  = 0
+free(0x23058)                                    = <void>
++++ exited (status 0) +++
+# strace problem2
+execve("/usr/bin/problem2", ["problem2"], 0xbebcee40 /* 12 vars */) = 0
+readlinkat(AT_FDCWD, "/proc/self/exe", "/usr/bin/problem2", 4096) = 17
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_UNINITIALIZED, -1, 0) = 0xb6fb3000
+open("/lib//libc.so.0", O_RDONLY)       = 3
+fstat(3, {st_mode=S_IFREG|0755, st_size=440200, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_UNINITIALIZED, -1, 0) = 0xb6fb2000
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0P\355\0\0004\0\0\0"..., 4096) = 4096
+mmap2(NULL, 598016, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb6f0d000
+mmap2(0xb6f0d000, 436556, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0xb6f0d000
+mmap2(0xb6f87000, 4852, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0x6a000) = 0xb6f87000
+mmap2(0xb6f89000, 88104, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb6f89000
+close(3)                                = 0
+munmap(0xb6fb2000, 4096)                = 0
+stat("/lib/ld-uClibc.so.0", {st_mode=S_IFREG|0755, st_size=28512, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_UNINITIALIZED, -1, 0) = 0xb6fb2000
+set_tls(0xb6fb2490, 0xb6fb2000, 0xb6fb2b38, 0xb6fb2490, 0xb6fb4f70) = 0
+mprotect(0x20000, 4096, PROT_READ)      = 0
+mprotect(0xb6f87000, 4096, PROT_READ)   = 0
+mprotect(0xb6fb4000, 4096, PROT_READ)   = 0
+set_tid_address(0xb6fb2068)             = 125
+set_robust_list(0xb6fb206c, 12)         = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0xb6f6bd0c, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0xb6f1c6ac}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0xb6f6bdd0, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0xb6f1c6ac}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+ugetrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+ioctl(0, TCGETS, {B115200 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B115200 opost isig icanon echo ...}) = 0
+write(1, "It is interesting how much effor"..., 96It is interesting how much effort does it take to just think about an interesting string really
+) = 96
+brk(NULL)                               = 0x22000
+brk(0x23000)                            = 0x23000
+open("problem2.txt", O_RDWR|O_CREAT|O_TRUNC, 0666) = 3
+ioctl(3, TCGETS, 0xbe92cc14)            = -1 ENOTTY (Inappropriate ioctl for device)
+brk(0x24000)                            = 0x24000
+write(3, "Z", 1)                        = 1
+close(3)                                = 0
+open("problem2.txt", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3
+ioctl(3, TCGETS, 0xbe92cc14)            = -1 ENOTTY (Inappropriate ioctl for device)
+write(1, "\nType in a string:", 18
+Type in a string:)     = 18
+read(0, ads
+"ads\n", 4096)                  = 4
+write(3, "ads\n", 4)                    = 4
+close(3)                                = 0
+open("problem2.txt", O_RDONLY)          = 3
+ioctl(3, TCGETS, 0xbe92cc14)            = -1 ENOTTY (Inappropriate ioctl for device)
+read(3, "Zads\n", 4096)                 = 5
+close(3)                                = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
+# perf stat problem2
+It is interesting how much effort does it take to just think about an interesting string really
+
+Type in a string:perf
+
+ Performance counter stats for 'problem2':
+
+          9.511877      task-clock (msec)         #    0.003 CPUs utilized          
+                 4      context-switches          #    0.421 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                32      page-faults               #    0.003 M/sec                  
+           8141950      cycles                    #    0.856 GHz                    
+           2864774      stalled-cycles-frontend   #   35.19% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+           2259627      instructions              #    0.28  insns per cycle        
+                                                  #    1.27  stalled cycles per insn
+            261537      branches                  #   27.496 M/sec                  
+             66782      branch-misses             #   25.53% of all branches        
+
+       3.640977792 seconds time elapsed
+
+# 
+
