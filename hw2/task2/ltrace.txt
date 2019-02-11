@@ -1,0 +1,17 @@
+puts("It is interesting how much effor"...)                           = 96
+fopen("problem2.txt", "w+")                                           = 0x56077f3e6670
+fputc('Z', 0x56077f3e6670)                                            = 90
+fclose(0x56077f3e6670)                                                = 0
+fopen("problem2.txt", "a")                                            = 0x56077f3e6670
+malloc(50)                                                            = 0x56077f3e68a0
+printf("\nType in a string:")                                         = 18
+fgets("qwerty\n", 50, 0x7f6f96cfba00)                                 = 0x56077f3e68a0
+fputs("qwerty\n", 0x56077f3e6670)                                     = 1
+fflush(0x56077f3e6670)                                                = 0
+fclose(0x56077f3e6670)                                                = 0
+fopen("problem2.txt", "r")                                            = 0x56077f3e6670
+fgetc(0x56077f3e6670)                                                 = 'Z'
+fgets("qwerty\n", 50, 0x56077f3e6670)                                 = 0x7ffce7d9f900
+fclose(0x56077f3e6670)                                                = 0
+free(0x56077f3e68a0)                                                  = <void>
++++ exited (status 0) +++
