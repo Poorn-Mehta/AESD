@@ -1,0 +1,1 @@
+cmd_/home/poorn/Workspace/AESD/hw3/task4/custom_geologist.ko := arm-linux-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/poorn/Workspace/AESD/hw3/task4/custom_geologist.ko /home/poorn/Workspace/AESD/hw3/task4/custom_geologist.o /home/poorn/Workspace/AESD/hw3/task4/custom_geologist.mod.o ;  true

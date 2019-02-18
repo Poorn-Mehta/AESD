@@ -1,0 +1,1 @@
+cmd_/home/poorn/Workspace/AESD/hw3/task3/custom_timer.ko := arm-linux-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/poorn/Workspace/AESD/hw3/task3/custom_timer.ko /home/poorn/Workspace/AESD/hw3/task3/custom_timer.o /home/poorn/Workspace/AESD/hw3/task3/custom_timer.mod.o ;  true
