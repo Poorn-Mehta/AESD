@@ -180,6 +180,7 @@ int main(void)
 	gettimeofday(&current_time, 0);
 	fprintf(fptr, "Time Stamp: *%lu.%06lu*\n", current_time.tv_sec, current_time.tv_usec);
 	fprintf(fptr,"IPC using Shared Memory\n");
+	fprintf(fptr,"No special resources being utilized\n");
 	fclose(fptr);
 
 	int pid = fork();

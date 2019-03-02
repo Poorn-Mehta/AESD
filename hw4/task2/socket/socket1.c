@@ -122,6 +122,7 @@ int main(void)
 	gettimeofday(&current_time, NULL);
 	fprintf(fptr, "Time Stamp: *%lu.%06lu*\n", current_time.tv_sec, current_time.tv_usec);
     	fprintf(fptr,"IPC using Socket\n");
+	fprintf(fptr,"No special resources being utilized\n");
 
 	// rx1, tx1 - both contains two messages - 1 string and 1 integer
 	gettimeofday(&current_time, NULL);

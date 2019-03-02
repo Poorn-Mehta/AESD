@@ -1,106 +1,108 @@
-First Queue Start with PID: 15248
-Time Stamp: *1551501316.787763*
+First Queue Start with PID: 20444
+Time Stamp: *1551505443.530155*
 IPC using POSIX Queue
+No special resources being utilized
 
-<1551501316.787775> String from Second Queue *C to S 1*
-<1551501316.787775> Command from Second Queue: LED ON
-<1551501336.775827> LED is Turned ON by First Queue
-<1551501336.775827> Sending to Second Queue *S to C 1* and LED Command: No Change
+<1551505443.530156> String from Second Queue *C to S 1*
+<1551505443.530156> Command from Second Queue: LED ON
+<1551505447.000089> LED is Turned ON by First Queue
+<1551505447.000090> Sending to Second Queue *S to C 1* and LED Command: No Change
 
-<1551501336.775832> String from Second Queue *C to S 2*
-<1551501336.775832> Command from Second Queue: LED OFF
-<1551501336.775862> LED is Turned OFF by First Queue
-<1551501336.775862> Sending to Second Queue *S to C 2* and LED Command: Turn OFF
+<1551505447.000095> String from Second Queue *C to S 2*
+<1551505447.000095> Command from Second Queue: LED OFF
+<1551505447.000127> LED is Turned OFF by First Queue
+<1551505447.000127> Sending to Second Queue *S to C 2* and LED Command: Turn OFF
 
-<1551501336.775866> String from Second Queue *C to S 3*
-<1551501336.775866> LED State Unchanged
-<1551501336.775892> Sending to Second Queue *S to C 3* and LED Command: Turn ON
+<1551505447.000131> String from Second Queue *C to S 3*
+<1551505447.000131> LED State Unchanged
+<1551505447.000157> Sending to Second Queue *S to C 3* and LED Command: Turn ON
 
-<1551501336.775895> String from Second Queue *C to S 4*
-<1551501336.775895> Command from Second Queue: LED OFF
-<1551501336.775920> LED is Turned OFF by First Queue
-<1551501336.775920> Sending to Second Queue *S to C 4* and LED Command: No Change
+<1551505447.000161> String from Second Queue *C to S 4*
+<1551505447.000161> Command from Second Queue: LED OFF
+<1551505447.000186> LED is Turned OFF by First Queue
+<1551505447.000186> Sending to Second Queue *S to C 4* and LED Command: No Change
 
-<1551501336.775924> String from Second Queue *C to S 5*
-<1551501336.775924> Command from Second Queue: LED ON
-<1551501336.775948> LED is Turned ON by First Queue
-<1551501336.775949> Sending to Second Queue *S to C 5* and LED Command: Turn ON
+<1551505447.000190> String from Second Queue *C to S 5*
+<1551505447.000190> Command from Second Queue: LED ON
+<1551505447.000214> LED is Turned ON by First Queue
+<1551505447.000215> Sending to Second Queue *S to C 5* and LED Command: Turn ON
 
-<1551501336.775952> String from Second Queue *C to S 6*
-<1551501336.775952> LED State Unchanged
-<1551501336.775977> Sending to Second Queue *S to C 6* and LED Command: No Change
+<1551505447.000218> String from Second Queue *C to S 6*
+<1551505447.000218> LED State Unchanged
+<1551505447.000243> Sending to Second Queue *S to C 6* and LED Command: No Change
 
-<1551501336.775981> String from Second Queue *C to S 7*
-<1551501336.775981> Command from Second Queue: LED OFF
-<1551501336.776005> LED is Turned OFF by First Queue
-<1551501336.776005> Sending to Second Queue *S to C 7* and LED Command: Turn ON
+<1551505447.000246> String from Second Queue *C to S 7*
+<1551505447.000246> Command from Second Queue: LED OFF
+<1551505447.000279> LED is Turned OFF by First Queue
+<1551505447.000279> Sending to Second Queue *S to C 7* and LED Command: Turn ON
 
-<1551501336.776008> String from Second Queue *C to S 8*
-<1551501336.776008> Command from Second Queue: LED ON
-<1551501336.776033> LED is Turned ON by First Queue
-<1551501336.776033> Sending to Second Queue *S to C 8* and LED Command: Turn ON
+<1551505447.000283> String from Second Queue *C to S 8*
+<1551505447.000283> Command from Second Queue: LED ON
+<1551505447.000308> LED is Turned ON by First Queue
+<1551505447.000308> Sending to Second Queue *S to C 8* and LED Command: Turn ON
 
-<1551501336.776037> String from Second Queue *C to S 9*
-<1551501336.776037> Command from Second Queue: LED ON
-<1551501336.776061> LED is Turned ON by First Queue
-<1551501336.776061> Sending to Second Queue *S to C 9* and LED Command: ON
+<1551505447.000312> String from Second Queue *C to S 9*
+<1551505447.000312> Command from Second Queue: LED ON
+<1551505447.000336> LED is Turned ON by First Queue
+<1551505447.000337> Sending to Second Queue *S to C 9* and LED Command: ON
 
-<1551501336.776065> String from Second Queue *C to S 10*
-<1551501336.776065> LED State Unchanged
-<1551501336.776089> Sending to Second Queue *S to C 10* and LED Command: Turn OFF
+<1551505447.000340> String from Second Queue *C to S 10*
+<1551505447.000340> LED State Unchanged
+<1551505447.000365> Sending to Second Queue *S to C 10* and LED Command: Turn OFF
 
-<1551501348.267997>First Queue Exiting... Closing Program and File Pointers
+<1551505453.799749>First Queue Exiting... Closing Program and File Pointers
 
 
-Second Queue Start with PID: 15250
-Time Stamp: *1551501336.775807*
+Second Queue Start with PID: 20445
+Time Stamp: *1551505446.994496*
 IPC using POSIX Queue
+No special resources being utilized
 
-<1551501336.775808> Sending to First Queue *C to S 1* and LED Command: Turn ON
-<1551501336.775813> String from First Queue *S to C 1*
-<1551501336.775813> LED State Unchanged
+<1551505446.994497> Sending to First Queue *C to S 1* and LED Command: Turn ON
+<1551505446.994502> String from First Queue *S to C 1*
+<1551505446.994502> LED State Unchanged
 
-<1551501336.775847> Sending to First Queue *C to S 2* and LED Command: Turn OFF
-<1551501336.775850> String from First Queue *S to C 2*
-<1551501336.775850> Command from First Queue: LED OFF
-<1551501336.775877> LED is Turned OFF by Second Queue
+<1551505447.000109> Sending to First Queue *C to S 2* and LED Command: Turn OFF
+<1551505447.000114> String from First Queue *S to C 2*
+<1551505447.000114> Command from First Queue: LED OFF
+<1551505447.000142> LED is Turned OFF by Second Queue
 
-<1551501336.775878> Sending to First Queue *C to S 3* and LED Command: No Change
-<1551501336.775881> String from First Queue *S to C 3*
-<1551501336.775881> Command from First Queue: LED ON
-<1551501336.775906> LED is Turned ON by Second Queue
+<1551505447.000143> Sending to First Queue *C to S 3* and LED Command: No Change
+<1551505447.000146> String from First Queue *S to C 3*
+<1551505447.000146> Command from First Queue: LED ON
+<1551505447.000171> LED is Turned ON by Second Queue
 
-<1551501336.775906> Sending to First Queue *C to S 4* and LED Command: Turn OFF
-<1551501336.775910> String from First Queue *S to C 4*
-<1551501336.775910> LED State Unchanged
+<1551505447.000172> Sending to First Queue *C to S 4* and LED Command: Turn OFF
+<1551505447.000176> String from First Queue *S to C 4*
+<1551505447.000176> LED State Unchanged
 
-<1551501336.775935> Sending to First Queue *C to S 5* and LED Command: Turn ON
-<1551501336.775938> String from First Queue *S to C 5*
-<1551501336.775938> Command from First Queue: LED ON
-<1551501336.775963> LED is Turned ON by Second Queue
+<1551505447.000200> Sending to First Queue *C to S 5* and LED Command: Turn ON
+<1551505447.000204> String from First Queue *S to C 5*
+<1551505447.000204> Command from First Queue: LED ON
+<1551505447.000229> LED is Turned ON by Second Queue
 
-<1551501336.775963> Sending to First Queue *C to S 6* and LED Command: No Change
-<1551501336.775967> String from First Queue *S to C 6*
-<1551501336.775967> LED State Unchanged
+<1551505447.000229> Sending to First Queue *C to S 6* and LED Command: No Change
+<1551505447.000232> String from First Queue *S to C 6*
+<1551505447.000232> LED State Unchanged
 
-<1551501336.775991> Sending to First Queue *C to S 7* and LED Command: Turn OFF
-<1551501336.775994> String from First Queue *S to C 7*
-<1551501336.775994> Command from First Queue: LED ON
-<1551501336.776019> LED is Turned ON by Second Queue
+<1551505447.000264> Sending to First Queue *C to S 7* and LED Command: Turn OFF
+<1551505447.000268> String from First Queue *S to C 7*
+<1551505447.000268> Command from First Queue: LED ON
+<1551505447.000293> LED is Turned ON by Second Queue
 
-<1551501336.776019> Sending to First Queue *C to S 8* and LED Command: Turn ON
-<1551501336.776022> String from First Queue *S to C 8*
-<1551501336.776022> Command from First Queue: LED ON
-<1551501336.776047> LED is Turned ON by Second Queue
+<1551505447.000294> Sending to First Queue *C to S 8* and LED Command: Turn ON
+<1551505447.000297> String from First Queue *S to C 8*
+<1551505447.000297> Command from First Queue: LED ON
+<1551505447.000322> LED is Turned ON by Second Queue
 
-<1551501336.776047> Sending to First Queue *C to S 9* and LED Command: Turn ON
-<1551501336.776051> String from First Queue *S to C 9*
-<1551501336.776051> Command from First Queue: LED ON
-<1551501336.776075> LED is Turned ON by Second Queue
+<1551505447.000322> Sending to First Queue *C to S 9* and LED Command: Turn ON
+<1551505447.000326> String from First Queue *S to C 9*
+<1551505447.000326> Command from First Queue: LED ON
+<1551505447.000350> LED is Turned ON by Second Queue
 
-<1551501336.776075> Sending to First Queue *C to S 10* and LED Command: No Change
-<1551501336.776079> String from First Queue *S to C 10*
-<1551501336.776079> Command from First Queue: LED OFF
-<1551501336.776103> LED is Turned OFF by Second Queue
+<1551505447.000351> Sending to First Queue *C to S 10* and LED Command: No Change
+<1551505447.000354> String from First Queue *S to C 10*
+<1551505447.000354> Command from First Queue: LED OFF
+<1551505447.000379> LED is Turned OFF by Second Queue
 
-<1551501366.046315>Second Queue Exiting... Closing Program and File Pointers
+<1551505461.872312>Second Queue Exiting... Closing Program and File Pointers

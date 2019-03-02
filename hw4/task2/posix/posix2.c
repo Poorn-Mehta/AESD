@@ -106,6 +106,7 @@ int main(void)
 	gettimeofday(&current_time, 0);
 	fprintf(fptr, "Time Stamp: *%lu.%06lu*\n", current_time.tv_sec, current_time.tv_usec);
     	fprintf(fptr,"IPC using POSIX Queue\n");
+	fprintf(fptr,"No special resources being utilized\n");
 
 	// tx1, rx1 - both contains two messages - 1 string and 1 integer
 	strcpy(p1->str, "C to S 1");
