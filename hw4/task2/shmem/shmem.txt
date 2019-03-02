@@ -1,0 +1,109 @@
+Process ID:15203
+Time Stamp: *1551501106.877494*
+IPC using Shared Memory
+
+<1551501107.880147> LED is Turned ON by Parent
+
+Parent PID:15203
+<1551501106.877654> Parent: Wrote String *P to C 1* LED State: No Change
+<1551501107.880147> Parent: Read String *C to P 1* LED State: Turn ON
+
+Child PID:15204
+<1551501106.899843> Child: Read String *P to C 1* LED State: No Change
+<1551501106.899846> Child: Wrote String *C to P 1* LED Command: Turn ON
+
+<1551501108.912224> LED is Turned OFF by Child
+
+Parent PID:15203
+<1551501108.884413> Parent: Wrote String *P to C 2* LED Command: Turn OFF
+<1551501109.887707> Parent: Read String *C to P 2* LED State: No Change
+
+Child PID:15204
+<1551501108.912224> Child: Read String *P to C 2* LED State: Turn OFF
+<1551501108.912243> Child: Wrote String *C to P 2* LED State: No Change
+
+<1551501110.913470> LED is Turned ON by Child
+
+<1551501111.892853> LED is Turned OFF by Parent
+
+Parent PID:15203
+<1551501110.892504> Parent: Wrote String *P to C 3* LED Command: Turn ON
+<1551501111.892853> Parent: Read String *C to P 3* LED State: Turn OFF
+
+Child PID:15204
+<1551501110.913470> Child: Read String *P to C 3* LED State: Turn ON
+<1551501110.913483> Child: Wrote String *C to P 3* LED Command: Turn OFF
+
+<1551501113.899930> LED is Turned ON by Parent
+
+Parent PID:15203
+<1551501112.896165> Parent: Wrote String *P to C 4* LED State: No Change
+<1551501113.899930> Parent: Read String *C to P 4* LED State: Turn ON
+
+Child PID:15204
+<1551501112.916652> Child: Read String *P to C 4* LED State: No Change
+<1551501112.916653> Child: Wrote String *C to P 4* LED Command: Turn ON
+
+<1551501114.928132> LED is Turned OFF by Child
+
+Parent PID:15203
+<1551501114.900319> Parent: Wrote String *P to C 5* LED Command: Turn OFF
+<1551501115.900337> Parent: Read String *C to P 5* LED State: No Change
+
+Child PID:15204
+<1551501114.928132> Child: Read String *P to C 5* LED State: Turn OFF
+<1551501114.928150> Child: Wrote String *C to P 5* LED State: No Change
+
+<1551501116.939770> LED is Turned ON by Child
+
+Parent PID:15203
+<1551501116.900733> Parent: Wrote String *P to C 6* LED Command: Turn ON
+<1551501117.901077> Parent: Read String *C to P 6* LED State: No Change
+
+Child PID:15204
+<1551501116.939770> Child: Read String *P to C 6* LED State: Turn ON
+<1551501116.939783> Child: Wrote String *C to P 6* LED State: No Change
+
+<1551501119.903712> LED is Turned OFF by Parent
+
+Parent PID:15203
+<1551501118.901469> Parent: Wrote String *P to C 7* LED State: No Change
+<1551501119.903712> Parent: Read String *C to P 7* LED State: Turn OFF
+
+Child PID:15204
+<1551501118.955718> Child: Read String *P to C 7* LED State: No Change
+<1551501118.955719> Child: Wrote String *C to P 7* LED Command: Turn OFF
+
+<1551501120.964771> LED is Turned OFF by Child
+
+<1551501121.904059> LED is Turned ON by Parent
+
+Parent PID:15203
+<1551501120.903954> Parent: Wrote String *P to C 8* LED Command: Turn OFF
+<1551501121.904059> Parent: Read String *C to P 8* LED State: Turn ON
+
+Child PID:15204
+<1551501120.964771> Child: Read String *P to C 8* LED State: Turn OFF
+<1551501120.964790> Child: Wrote String *C to P 8* LED Command: Turn ON
+
+<1551501122.971786> LED is Turned ON by Child
+
+Parent PID:15203
+<1551501122.904427> Parent: Wrote String *P to C 9* LED Command: Turn ON
+<1551501123.904790> Parent: Read String *C to P 9* LED State: No Change
+
+Child PID:15204
+<1551501122.971786> Child: Read String *P to C 9* LED State: Turn ON
+<1551501122.971799> Child: Wrote String *C to P 9* LED State: No Change
+
+<1551501125.911897> LED is Turned OFF by Parent
+
+Parent PID:15203
+<1551501124.908126> Parent: Wrote String *P to C 10* LED State: No Change
+<1551501125.911897> Parent: Read String *C to P 10* LED State: Turn OFF
+
+Child PID:15204
+<1551501124.979815> Child: Read String *P to C 10* LED State: No Change
+<1551501124.979817> Child: Wrote String *C to P 10* LED Command: Turn OFF
+
+<1551501133.708134> Exiting... Closing Program and File Pointers

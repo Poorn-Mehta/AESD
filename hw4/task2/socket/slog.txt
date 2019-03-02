@@ -1,0 +1,105 @@
+Server Start with PID: 15168
+Time Stamp: *1551500987.060258*
+IPC using Socket
+
+<1551500987.060259> String from Client *C to S 1*
+<1551500987.060259> Command from Client: LED ON
+<1551500987.060261> LED is Turned ON by Server
+<1551500987.060262> Sending to Client *S to C 1* and LED Command: No Change
+
+<1551500987.060280> String from Client *C to S 2*
+<1551500987.060280> Command from Client: LED OFF
+<1551500987.060282> LED is Turned OFF by Server
+<1551500987.060282> Sending to Client *S to C 2* and LED Command: Turn OFF
+
+<1551500987.060293> String from Client *C to S 3*
+<1551500987.060293> LED State Unchanged
+<1551500987.060294> Sending to Client *S to C 3* and LED Command: Turn ON
+
+<1551500987.060304> String from Client *C to S 4*
+<1551500987.060304> Command from Client: LED OFF
+<1551500987.060305> LED is Turned OFF by Server
+<1551500987.060306> Sending to Client *S to C 4* and LED Command: No Change
+
+<1551500987.060315> String from Client *C to S 5*
+<1551500987.060315> Command from Client: LED ON
+<1551500987.060316> LED is Turned ON by Server
+<1551500987.060317> Sending to Client *S to C 5* and LED Command: Turn ON
+
+<1551500987.060326> String from Client *C to S 6*
+<1551500987.060326> Command from Client: LED ON
+<1551500987.060327> LED is Turned ON by Server
+<1551500987.060328> Sending to Client *S to C 6* and LED Command: No Change
+
+<1551500987.060337> String from Client *C to S 7*
+<1551500987.060337> LED State Unchanged
+<1551500987.060338> Sending to Client *S to C 7* and LED Command: Turn ON
+
+<1551500987.060348> String from Client *C to S 8*
+<1551500987.060348> Command from Client: LED ON
+<1551500987.060349> LED is Turned ON by Server
+<1551500987.060349> Sending to Client *S to C 8* and LED Command: Turn ON
+
+<1551500987.060359> String from Client *C to S 9*
+<1551500987.060359> LED State Unchanged
+<1551500987.060360> Sending to Client *S to C 9* and LED Command: Turn OFF
+
+<1551500987.060370> String from Client *C to S 10*
+<1551500987.060370> Command from Client: LED ON
+<1551500987.060371> LED is Turned ON by Server
+<1551500987.060371> Sending to Client *S to C 10* and LED Command: No Change
+
+<1551500994.691867>Server Exiting... Closing Socket and File Pointers
+
+
+Client Start with PID: 15169
+Time Stamp: *1551500987.057201*
+IPC using Socket
+
+<1551500987.057202> Sending to Server *C to S 1* and LED Command: Turn ON
+<1551500987.057209> String from Server *S to C 1*
+<1551500987.057209> LED State Unchanged
+
+<1551500987.060274> Sending to Server *C to S 2* and LED Command: Turn OFF
+<1551500987.060277> String from Server *S to C 2*
+<1551500987.060277> Command from Server: LED OFF
+<1551500987.060288> LED is Turned OFF by Client
+
+<1551500987.060289> Sending to Server *C to S 3* and LED Command: No Change
+<1551500987.060292> String from Server *S to C 3*
+<1551500987.060292> Command from Server: LED ON
+<1551500987.060300> LED is Turned ON by Client
+
+<1551500987.060300> Sending to Server *C to S 4* and LED Command: Turn OFF
+<1551500987.060303> String from Server *S to C 4*
+<1551500987.060303> LED State Unchanged
+
+<1551500987.060311> Sending to Server *C to S 5* and LED Command: Turn ON
+<1551500987.060313> String from Server *S to C 5*
+<1551500987.060313> Command from Server: LED ON
+<1551500987.060322> LED is Turned ON by Client
+
+<1551500987.060322> Sending to Server *C to S 6* and LED Command: Turn ON
+<1551500987.060325> String from Server *S to C 6*
+<1551500987.060325> LED State Unchanged
+
+<1551500987.060333> Sending to Server *C to S 7* and LED Command: No Change
+<1551500987.060335> String from Server *S to C 7*
+<1551500987.060335> Command from Server: LED ON
+<1551500987.060343> LED is Turned ON by Client
+
+<1551500987.060344> Sending to Server *C to S 8* and LED Command: Turn ON
+<1551500987.060346> String from Server *S to C 8*
+<1551500987.060346> Command from Server: LED ON
+<1551500987.060354> LED is Turned ON by Client
+
+<1551500987.060355> Sending to Server *C to S 9* and LED Command: No Change
+<1551500987.060357> String from Server *S to C 9*
+<1551500987.060357> Command from Server: LED OFF
+<1551500987.060365> LED is Turned OFF by Client
+
+<1551500987.060366> Sending to Server *C to S 10* and LED Command: Turn ON
+<1551500987.060368> String from Server *S to C 10*
+<1551500987.060368> LED State Unchanged
+
+<1551501002.040543>Client Exiting... Closing Socket and File Pointers

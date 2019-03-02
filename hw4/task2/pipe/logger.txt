@@ -1,0 +1,109 @@
+Process ID:15026
+Time Stamp: *1551500143.944332*
+IPC using Pipes
+
+Child PID:15027
+<1551500143.951849> Child: Transmitting String *C to P 1* LED Command: Turn ON
+<1551500143.951859> Child: Receiving String *P to C 1* LED State: No Change
+
+<1551500143.959928> LED is Turned ON by Parent
+
+Parent PID:15026
+<1551500143.944489> Parent: Transmitting String *P to C 1* LED State: No Change
+<1551500143.959928> Parent: Receiving String *C to P 1* LED State: Turn ON
+
+Parent PID:15026
+<1551500143.959948> Parent: Transmitting String *P to C 2* LED Command: Turn OFF
+<1551500143.959954> Parent: Receiving String *C to P 2* LED State: No Change
+
+<1551500143.959971> LED is Turned OFF by Child
+
+Child PID:15027
+<1551500143.951879> Child: Transmitting String *C to P 2* LED State: No Change
+<1551500143.959971> Child: Receiving String *P to C 2* LED State: Turn OFF
+
+<1551500143.959995> LED is Turned ON by Child
+
+Child PID:15027
+<1551500143.959987> Child: Transmitting String *C to P 3* LED Command: Turn OFF
+<1551500143.959995> Child: Receiving String *P to C 3* LED State: Turn ON
+
+<1551500143.960008> LED is Turned OFF by Parent
+
+Parent PID:15026
+<1551500143.959960> Parent: Transmitting String *P to C 3* LED Command: Turn ON
+<1551500143.960008> Parent: Receiving String *C to P 3* LED State: Turn OFF
+
+<1551500143.960023> LED is Turned ON by Parent
+
+Parent PID:15026
+<1551500143.960017> Parent: Transmitting String *P to C 4* LED State: No Change
+<1551500143.960023> Parent: Receiving String *C to P 4* LED State: Turn ON
+
+Child PID:15027
+<1551500143.960003> Child: Transmitting String *C to P 4* LED Command: Turn ON
+<1551500143.960034> Child: Receiving String *P to C 4* LED State: No Change
+
+<1551500143.960047> LED is Turned OFF by Child
+
+Child PID:15027
+<1551500143.960041> Child: Transmitting String *C to P 5* LED State: No Change
+<1551500143.960047> Child: Receiving String *P to C 5* LED State: Turn OFF
+
+Parent PID:15026
+<1551500143.960031> Parent: Transmitting String *P to C 5* LED Command: Turn OFF
+<1551500143.960056> Parent: Receiving String *C to P 5* LED State: No Change
+
+<1551500143.960069> LED is Turned ON by Parent
+
+Parent PID:15026
+<1551500143.960063> Parent: Transmitting String *P to C 6* LED State: No Change
+<1551500143.960069> Parent: Receiving String *C to P 6* LED State: Turn ON
+
+Child PID:15027
+<1551500143.960055> Child: Transmitting String *C to P 6* LED Command: Turn ON
+<1551500143.960077> Child: Receiving String *P to C 6* LED State: No Change
+
+<1551500143.960090> LED is Turned OFF by Child
+
+Child PID:15027
+<1551500143.960084> Child: Transmitting String *C to P 7* LED State: No Change
+<1551500143.960090> Child: Receiving String *P to C 7* LED State: Turn OFF
+
+Parent PID:15026
+<1551500143.960077> Parent: Transmitting String *P to C 7* LED Command: Turn OFF
+<1551500143.960099> Parent: Receiving String *C to P 7* LED State: No Change
+
+<1551500143.960112> LED is Turned OFF by Parent
+
+Parent PID:15026
+<1551500143.960106> Parent: Transmitting String *P to C 8* LED Command: Turn ON
+<1551500143.960112> Parent: Receiving String *C to P 8* LED State: Turn OFF
+
+<1551500143.960122> LED is Turned ON by Child
+
+Child PID:15027
+<1551500143.960098> Child: Transmitting String *C to P 8* LED Command: Turn OFF
+<1551500143.960122> Child: Receiving String *P to C 8* LED State: Turn ON
+
+Child PID:15027
+<1551500143.960131> Child: Transmitting String *C to P 9* LED Command: Turn ON
+<1551500143.960136> Child: Receiving String *P to C 9* LED State: No Change
+
+<1551500143.960148> LED is Turned ON by Parent
+
+Parent PID:15026
+<1551500143.960119> Parent: Transmitting String *P to C 9* LED State: No Change
+<1551500143.960148> Parent: Receiving String *C to P 9* LED State: Turn ON
+
+Parent PID:15026
+<1551500143.960157> Parent: Transmitting String *P to C 10* LED Command: Turn OFF
+<1551500143.960162> Parent: Receiving String *C to P 10* LED State: No Change
+
+<1551500143.960174> LED is Turned OFF by Child
+
+Child PID:15027
+<1551500143.960141> Child: Transmitting String *C to P 10* LED State: No Change
+<1551500143.960174> Child: Receiving String *P to C 10* LED State: Turn OFF
+
+<1551500151.432035> Exiting... Closing Pipes and File Pointers
