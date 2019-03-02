@@ -145,9 +145,9 @@ void *child2_function(void *thread_input)
 	custom_timer.it_interval.tv_sec = 0;
 	custom_timer.it_interval.tv_usec = 100000;
 
-	// Setting initial delay to 1 second
-	custom_timer.it_value.tv_sec = 1;
-	custom_timer.it_value.tv_usec = 0;
+	// Setting initial delay to 100ms
+	custom_timer.it_value.tv_sec = 0;
+	custom_timer.it_value.tv_usec = 100000;
 
 	// Setting the signal action to kick in the handler function for these 3 signals
 	sigaction (SIGVTALRM, &custom_signal_action, 0);
